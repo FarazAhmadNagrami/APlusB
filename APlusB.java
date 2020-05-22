@@ -7,8 +7,8 @@ class APlusB {
 
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
-        int a1 = s.nextInt();
+        int a = s.nextInt();
         int b1 = s.nextInt();
-        System.out.println(sumOfTwoDigits(a1, b1));
+        System.out.println(sumOfTwoDigits(a, b1));
     }
 }
